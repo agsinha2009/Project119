@@ -1,0 +1,58 @@
+body{
+    background-color: yellow;
+    animation-name: bg;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bg{
+    from{
+        background-color: yellow;
+    }
+    to{
+        background-color: lightgreen;
+    }
+}
+
+#Score{
+    font-size: 25px;
+    color: red;
+    float: left;
+    margin-left: 30px;
+}
+
+#Time{
+    font-size: 25px;
+    float: right;
+    color: red;
+    margin-right: 30px;
+}
+
+#task{
+    color: red;
+    font-family: fantasy;
+    font-size: 26px;
+}
+
+#result{
+    font-size: 25px;
+
+}
+
+#confidence{
+    font-size: 25px;
+}
+canvas{
+    background-color: white;
+    animation-name: box;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes box{
+    from{
+        box-shadow: 1px 1px 10px blue;
+    }
+    to{
+        box-shadow: 1px 1px 10px yellow;
+    }
+}
